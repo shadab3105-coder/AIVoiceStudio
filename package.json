@@ -1,0 +1,33 @@
+{
+  "name": "voice-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Voice Studio: text-to-speech, voice cloning and emotion-tag TTS with a pluggable third-party API provider",
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"node --watch server/index.js\" \"vite\"",
+    "dev:api": "node --watch server/index.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node server/index.js",
+    "test": "vitest run",
+    "test:output": "node scripts/generate-test-output.mjs"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "multer": "^2.4.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-react": "^6.1.2",
+    "concurrently": "^8.2.2",
+    "supertest": "^7.0.0",
+    "tailwindcss": "^4.3.3",
+    "vite": "^8.3.3",
+    "vitest": "^5.0.3"
+  }
+}

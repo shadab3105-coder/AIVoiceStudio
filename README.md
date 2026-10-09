@@ -1,10 +1,10 @@
-# VoiceQuest
+# VoxQuest
 VoxQuest is an AI-powered voice adventure that transforms text into lifelike speech. Explore different voices, experiment with speaking styles, and bring your words to life through intelligent voice technology. 
 
 A creative journey where imagination meets AI!
 
 
-VoiceQuest is a Text-to-Speech, Voice Cloning, and Emotion-based voice application.
+VoxQuest is a Text-to-Speech, Voice Cloning, and Emotion-based voice application.
 
 It has a React + Tailwind frontend and a Node.js + Express backend.
 

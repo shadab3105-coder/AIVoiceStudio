@@ -74,10 +74,7 @@ export default function App() {
         <div className="grid h-11 w-11 place-items-center rounded-2xl bg-linear-to-br from-indigo-500 to-violet-500 shadow-glow">
           <Icon name="wave" className="h-6 w-6 text-white" />
         </div>
-        <div>
-          <h1 className="text-2xl font-bold tracking-tight">Voice Studio</h1>
-          <p className="text-sm text-slate-400">Text to speech, voice cloning and emotion control</p>
-        </div>
+        <div> <h1 className="text-2xl font-bold tracking-tight"> VoxQuest <span className="text-xs text-slate-400 font-normal ml-1">An adventurous journey where your words meet the magic of AI voices </span> </h1> <p className="text-sm text-slate-400"> Text to speech, voice cloning and emotion control </p> </div>
         {health && (
           <span
             className={`ml-auto rounded-full border px-3 py-1 text-xs font-medium ${
